@@ -1,15 +1,15 @@
 version: "1.0"
 project: "ClawMark"
 started_at: "2026-03-17T00:00:00Z"
-current_phase: "P1_prd"
+current_phase: "P2_P3_parallel"
 status: "running"
 phases:
   P0_brainstorm: { status: "completed", recommendation: "GO" }
-  P1_prd: { status: "running" }
-  P2_architect: { status: "not_started" }
-  P3_design: { status: "not_started" }
+  P1_prd: { status: "completed", version: "1.1" }
+  P2_architect: { status: "running" }
+  P3_design: { status: "running" }
   P4_develop: { status: "not_started" }
   P5_test: { status: "not_started" }
   P6_verify: { status: "not_started" }
   P7_deploy: { status: "not_started" }
-summary: "P0 Brainstorm completed (GO). Starting P1 PRD."
+summary: "P1 PRD approved. Running P2 Architecture + P3 Design in parallel."
