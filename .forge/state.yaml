@@ -1,0 +1,15 @@
+version: "1.0"
+project: "ClawMark"
+started_at: "2026-03-17T00:00:00Z"
+current_phase: "P1_prd"
+status: "running"
+phases:
+  P0_brainstorm: { status: "completed", recommendation: "GO" }
+  P1_prd: { status: "running" }
+  P2_architect: { status: "not_started" }
+  P3_design: { status: "not_started" }
+  P4_develop: { status: "not_started" }
+  P5_test: { status: "not_started" }
+  P6_verify: { status: "not_started" }
+  P7_deploy: { status: "not_started" }
+summary: "P0 Brainstorm completed (GO). Starting P1 PRD."

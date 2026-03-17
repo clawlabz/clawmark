@@ -1,0 +1,37 @@
+version: "1.0"
+
+project:
+  name: "ClawMark"
+  description: "极简个人书签收藏工具 — 保存网页链接、添加标签、搜索"
+  domain: "mark.clawlabz.xyz"
+  org: "clawlabz"
+  repo: "clawmark"
+
+providers:
+  hosting:
+    type: "vercel"
+  database:
+    type: "localStorage"
+    strategy: "none"
+  dns:
+    type: "cloudflare"
+  design:
+    type: "stitch"
+
+models:
+  brainstorm: "sonnet"
+  prd: "sonnet"
+  architect: "sonnet"
+  develop: "sonnet"
+  test: "sonnet"
+  verify: "sonnet"
+  deploy: "sonnet"
+
+optional:
+  analytics:
+    ga4:
+      enabled: false
+    clarity:
+      enabled: false
+  knowledge_base:
+    enabled: true
